@@ -16,6 +16,8 @@ body
 
 ol
 {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -77,21 +79,28 @@ h1
 
 h2
 {
+    padding-right: 12px;
     color: #333333;
     font-size: 50px;
 }
 
-h3
+h2.white_text
 {
+    padding-left: 20px;
+    padding-right: 72px;
     color: white;
-    font-size: 50px;
+    /*border: solid #F86262;*/
+    background-color: #F86262;
 }
 
-.rectangle
+.content
 {
-    background: #F86262;
-    width: 520px;
-    height: 60px;
+    /*display: flex;*/
+}
+
+.phrase h2
+{
+    display: inline-block;
 }
 
 button
@@ -105,4 +114,19 @@ button
     font-weight: bold;
     font-size: 24px;
     cursor: pointer;
+    /*left: 43.96%;*/
+    /*right: 45.28%;*/
+    /*top: calc(50% - 33px/2 + 159.5px);*/
+}
+
+.arrow img
+{
+    left: 55.14%;
+    right: 43.47%;
+    top: -64.55%;
+    bottom: 33.5%;
+}
+
+.social img
+{
 }
