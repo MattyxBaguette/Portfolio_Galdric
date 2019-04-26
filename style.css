@@ -1,0 +1,108 @@
+body
+{
+    font-family: 'Avenir', sans-serif;
+}
+
+/**
+* Header
+ */
+
+.custom-padding
+{
+    padding-top: 74px;
+    padding-left: 117px;
+    padding-right: 123px;
+}
+
+ol
+{
+    list-style-type: none;
+}
+
+.menu
+{
+    float: right;
+    /*display: block;*/
+    text-align: center;
+}
+
+.menu li
+{
+    display: inline-block;
+    padding: 24px;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: #F86262;
+}
+
+.name li
+{
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.name li.point
+{
+    color: #F86262;
+}
+
+.name li a
+{
+    color: #333333;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+/**
+* Content
+ */
+
+h1
+{
+    font-size: 120px;
+    color: #333333;
+}
+
+h2
+{
+    color: #333333;
+    font-size: 50px;
+}
+
+h3
+{
+    color: white;
+    font-size: 50px;
+}
+
+.rectangle
+{
+    background: #F86262;
+    width: 520px;
+    height: 60px;
+}
+
+button
+{
+    background: #F86262;
+    border-radius: 3px;
+    width: 216px;
+    height: 66px;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
