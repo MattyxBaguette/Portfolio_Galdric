@@ -1,7 +1,5 @@
 body
 {
-    margin: 0;
-    padding: 0;
     font-family: 'Avenir', sans-serif;
 }
 
@@ -11,7 +9,7 @@ body
 
 .custom-padding
 {
-    padding-top: 74px;
+    padding-top: 42px;
     padding-left: 117px;
     padding-right: 123px;
 }
@@ -44,6 +42,12 @@ ol
     color: #F86262;
 }
 
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
 .logo li
 {
     font-size: 24px;
@@ -65,6 +69,7 @@ ol
 {
     display: inline-block;
     align-items: center;
+    margin-left: 25px;
 }
 
 a:link
@@ -85,13 +90,16 @@ a:visited
 {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
+    padding-left: 27.84vw;
 }
 
 h1
 {
-    font-size: 120px;
+    /*font-size: 120px;*/
+    font-size: 6.250em;
+    font-weight: 500;
     color: #333333;
+    margin-top: 23.79vh;
 }
 
 h2
@@ -99,16 +107,12 @@ h2
     top: -90px;
     padding-right: 12px;
     color: #333333;
-    font-size: 50px;
+    font-size: 2.500em;
 }
 
-h2.white_text
+h2.colored_text
 {
-    padding-left: 20px;
-    padding-right: 72px;
-    color: white;
-    /*border: solid #F86262;*/
-    background-color: #F86262;
+    color: #F86262;
 }
 
 .content
@@ -123,12 +127,12 @@ h2.white_text
 
 button
 {
-    margin-top: 125px;
-    margin-left: 300px;
+    margin-top: 5.34vh;
+    margin-left: 12.84vw;
     background: #F86262;
-    border-radius: 3px;
-    width: 216px;
-    height: 66px;
+    border-radius: 12.37vh;
+    width: 14.93vw;
+    height: 7.79vh;
     color: white;
     font-family: 'Avenir', sans-serif;
     font-weight: bold;
@@ -139,22 +143,19 @@ button
     /*top: calc(50% - 33px/2 + 159.5px);*/
 }
 
-.arrow img
+button img
 {
-    left: 55.14%;
-    right: 43.47%;
-    top: -64.55%;
-    bottom: 33.5%;
+    margin-left: 0.83vw;
 }
 
 .social
 {
-    margin-left: 280px;
+    margin-left: 15.80vw;
     margin-bottom: 131px;
 }
 
 .social img
 {
-    margin-top: 145px;
-    margin-right: 45px;
+    margin-top: 6.99vh;
+    margin-right: 1.25vw;
 }
