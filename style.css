@@ -93,7 +93,7 @@ a:visited
 * Content
  */
 
-.content
+.home-content
 {
     display: flex;
     flex-direction: column;
@@ -152,26 +152,6 @@ button img
     margin-left: 0.83vw;
 }
 
-input
-{
-    margin-top: 5.34vh;
-    margin-left: 12.84vw;
-    background: #F86262;
-    border-radius: 12.37vh;
-    width: 14.93vw;
-    height: 7.79vh;
-    color: white;
-    font-family: 'Avenir', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-input img
-{
-    margin-left: 0.83vw;
-}
-
 .social
 {
     margin-left: 15.80vw;
@@ -191,6 +171,8 @@ input img
 footer
 {
     margin-bottom: 3.34vh;
+    /*margin-top: 33.41vh;*/
+    /*margin-top: 10%;*/
     margin-left: 8.125vw;
     margin-right: 8.125vw;
     font-weight: normal;
@@ -200,4 +182,73 @@ footer
 footer .author a
 {
     color: #F86262;
+}
+
+.page-title-about h1
+{
+    font-size: 2.500em;
+    display: inline-block;
+    margin-top: 22vh;
+}
+
+.page-title-about h1.colored_text
+{
+    margin-left: 1vw;
+    color: #F86262;
+}
+
+.about-content .page-title-about
+{
+    margin-left: 29.51vw;
+}
+
+.about-content img
+{
+    margin-top: -1vh;
+    margin-left: 12.91vw;
+}
+
+.presentation
+{
+    width: 55.13vw;
+    height:  20.42vh;
+    font-size: 1.500em;
+    margin-left: 29.51vw;
+    margin-top: -20vh;
+    line-height: 4.08vh;
+    /*flex-wrap: wrap;*/
+}
+
+.presentation .bold-name
+{
+    font-weight: 800;
+}
+
+.colored_text
+{
+    color: #F86262;
+}
+
+.content .page-title
+{
+    margin-left: 15.20vw;
+}
+
+.page-title h1
+{
+    font-size: 2.500em;
+    display: inline-block;
+    margin-top: 12vh;
+}
+
+.page-title h1.colored_text
+{
+    margin-left: 1vw;
+    color: #F86262;
+}
+
+.content img
+{
+    margin-top: 12.37vh;
+    margin-left: 12.91vw;
 }
