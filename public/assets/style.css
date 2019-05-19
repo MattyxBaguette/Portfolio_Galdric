@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Avenir', sans-serif;
+    overflow: hidden;
 }
 
 /**
@@ -9,9 +10,9 @@ body
 
 .custom-padding
 {
-    padding-top: 42px;
-    padding-left: 117px;
-    padding-right: 123px;
+    padding-top: 3.71vh;
+    padding-left: 8.125vw;
+    padding-right: 7.77vw;
 }
 
 ol
@@ -40,6 +41,12 @@ ol
 {
     text-decoration: none;
     color: #F86262;
+    opacity: 0.4;
+}
+
+.menu li a:hover
+{
+    opacity: 1;
 }
 
 .logo
@@ -99,7 +106,7 @@ h1
     font-size: 6.250em;
     font-weight: 500;
     color: #333333;
-    margin-top: 23.79vh;
+    margin-top: 23.14vh;
 }
 
 h2
@@ -138,12 +145,29 @@ button
     font-weight: bold;
     font-size: 24px;
     cursor: pointer;
-    /*left: 43.96%;*/
-    /*right: 45.28%;*/
-    /*top: calc(50% - 33px/2 + 159.5px);*/
 }
 
 button img
+{
+    margin-left: 0.83vw;
+}
+
+input
+{
+    margin-top: 5.34vh;
+    margin-left: 12.84vw;
+    background: #F86262;
+    border-radius: 12.37vh;
+    width: 14.93vw;
+    height: 7.79vh;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+input img
 {
     margin-left: 0.83vw;
 }
@@ -158,4 +182,22 @@ button img
 {
     margin-top: 6.99vh;
     margin-right: 1.25vw;
+}
+
+/**
+* Footer
+ */
+
+footer
+{
+    margin-bottom: 3.34vh;
+    margin-left: 8.125vw;
+    margin-right: 8.125vw;
+    font-weight: normal;
+
+}
+
+footer .author a
+{
+    color: #F86262;
 }

@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Galdric Dupont - Portfolio</title>
-    <link rel="icon" href="images/icon.jpg">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <title><?= !empty($title) ? $title : '' ?></title>
+    <link rel="icon" href="./assets/images/icon.jpg">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 <header>
@@ -13,9 +13,9 @@
         <nav>
             <ol>
                 <div class="logo">
-                    <img src="images/Photo.svg">
+                    <img src="./assets/images/Photo.png">
                     <div class="name">
-                        <li><a href="index.html">Galdric Dupont</a></li>
+                        <li><a href="<?= URL ?>pages/home.php">Galdric Dupont</a></li>
                         <li class="point">.</li>
                     </div>
                 </div>
