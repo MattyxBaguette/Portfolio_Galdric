@@ -2,6 +2,8 @@ body
 {
     font-family: 'Avenir', sans-serif;
     overflow: hidden;
+    position: relative;
+    height: 100vh;
 }
 
 /**
@@ -42,6 +44,11 @@ ol
     text-decoration: none;
     color: #F86262;
     opacity: 0.4;
+}
+
+.menu li a.highlighted
+{
+    opacity: 1;
 }
 
 .menu li a:hover
@@ -93,7 +100,7 @@ a:visited
 * Content
  */
 
-.content
+.home-content
 {
     display: flex;
     flex-direction: column;
@@ -152,26 +159,6 @@ button img
     margin-left: 0.83vw;
 }
 
-input
-{
-    margin-top: 5.34vh;
-    margin-left: 12.84vw;
-    background: #F86262;
-    border-radius: 12.37vh;
-    width: 14.93vw;
-    height: 7.79vh;
-    color: white;
-    font-family: 'Avenir', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-input img
-{
-    margin-left: 0.83vw;
-}
-
 .social
 {
     margin-left: 15.80vw;
@@ -191,13 +178,133 @@ input img
 footer
 {
     margin-bottom: 3.34vh;
-    margin-left: 8.125vw;
-    margin-right: 8.125vw;
+    /*margin-top: 33.41vh;*/
+    /*margin-top: 10%;*/
+    /*margin-left: 8.125vw;*/
+    /*margin-right: 8.125vw;*/
+    font-size: 0.688em;
     font-weight: normal;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 
 }
 
 footer .author a
 {
     color: #F86262;
+}
+
+footer ol
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ol div
+{
+    margin: 0 8.125vw;
+}
+
+/**
+* About
+ */
+
+.page-title-about h1
+{
+    font-size: 2.500em;
+    display: inline-block;
+    margin-top: 22vh;
+}
+
+.page-title-about h1.colored_text
+{
+    margin-left: 1vw;
+    color: #F86262;
+}
+
+.about-content .page-title-about
+{
+    margin-left: 29.51vw;
+}
+
+.about-content img
+{
+    margin-top: -2vh;
+    /*margin-left: 12.91vw;*/
+    margin-left: 18vw;
+}
+
+.presentation
+{
+    width: 55.13vw;
+    height:  20.42vh;
+    font-size: 1.125em;
+    /*margin-left: 29.51vw;*/
+    margin-left: 34.02vw;
+    margin-top: -20vh;
+    line-height: 3.09vh;
+    /*flex-wrap: wrap;*/
+}
+
+.presentation .bold-name
+{
+    font-weight: 800;
+}
+
+.colored_text
+{
+    color: #F86262;
+    white-space: pre-line;
+}
+
+/**
+* Other pages
+ */
+
+.content .page-title
+{
+    margin-left: 15.20vw;
+}
+
+.page-title h1
+{
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 12vh;
+}
+
+.page-title h1.colored_text
+{
+    margin-left: 1vw;
+    color: #F86262;
+}
+
+.content img
+{
+    margin-top: 12.37vh;
+    margin-left: 15.20vw;
+}
+
+strong
+{
+    font-weight: 800;
+}
+
+p
+{
+    white-space: pre-line;
+}
+
+.underlined_text
+{
+    text-decoration: underline;
+}
+
+.title
+{
+    font-size: 1.250em;
+    font-weight: 500;
+    line-height: 3.34vh;
 }

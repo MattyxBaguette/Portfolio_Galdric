@@ -1,0 +1,14 @@
+RewriteEngine On
+
+#RewriteRule ^$ ./index.php
+RewriteRule ^about-me$ ../views/pages/about.php
+RewriteRule ^404$ ../views/pages/404.php
+RewriteRule ^school-career$ ../views/pages/school-career.php
+RewriteRule ^experience$ ../views/pages/experience.php
+RewriteRule ^projects$ ../views/pages/projects.php
+RewriteRule ^watch$ ../views/pages/watch.php
+RewriteRule ^contact$ ../views/pages/contact.php
+
+
+
+

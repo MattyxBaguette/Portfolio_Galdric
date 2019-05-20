@@ -15,16 +15,16 @@
                 <div class="logo">
                     <img src="./assets/images/Photo.png">
                     <div class="name">
-                        <li><a href="<?= URL ?>pages/home.php">Galdric Dupont</a></li>
+                        <li><a href="<?= URL ?>">Galdric Dupont</a></li>
                         <li class="point">.</li>
                     </div>
                 </div>
                 <div class="menu">
-                    <li><a href="parcours_scolaire.html">Parcours scolaire</a></li>
-                    <li><a href="experience.html">Expérience</a></li>
-                    <li><a href="projets">Projets</a></li>
-                    <li><a href="veilles">Veilles</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a class="<?= !empty($highlighted) ? $highlighted : '' ?>" href="<?= URL ?>school-career">Parcours scolaire</a></li>
+                    <li><a class="<?= !empty($highlighted) ? $highlighted : '' ?>" href="<?= URL ?>experience">Expérience</a></li>
+                    <li><a class="<?= !empty($highlighted) ? $highlighted : '' ?>" href="<?= URL ?>projects">Projets</a></li>
+                    <li><a class="<?= !empty($highlighted) ? $highlighted : '' ?>" href="<?= URL ?>watch">Veilles</a></li>
+                    <li><a class="<?= !empty($highlighted) ? $highlighted : '' ?>" href="<?= URL ?>contact">Contact</a></li>
                 </div>
             </ol>
         </nav>
