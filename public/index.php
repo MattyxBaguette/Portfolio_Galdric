@@ -12,13 +12,13 @@ $q = empty($_GET['q']) ? '' : $_GET['q'];
 // Define controller
 $controller = '404';
 
-if ($q == 'about-me')
-    $controller = 'about';
+if ($q == 'about')
+    $controller = 'about-me';
 
 elseif ($q == '')
     $controller = 'home';
 
-if ($q == 'school-career')
+if ($q == 'school-career' || $q == 'parcours')
     $controller = 'school';
 
 elseif ($q == 'watch')
