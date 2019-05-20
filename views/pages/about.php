@@ -9,9 +9,9 @@
 
 <div class="presentation">
     Je m’appelle <strong>Galdric Dupont.</strong><br>
-    Je suis en deuxième année de<div class="colored_text"> BTS SIO option SISR</div> au sein de l’ensemble scolaire Saint Gabriel de Bagneux.
-    Dans le cadre de ma formation j’ai mis en place diverses plateformes de <div class="colored_text">déploiement</div> et
-    <div class="colored_text">configurations réseau.</div>
+    Je suis en deuxième année de<span class="colored_text"> BTS SIO option SISR</span> au sein de l’ensemble scolaire Saint Gabriel de Bagneux.
+    Dans le cadre de ma formation j’ai mis en place diverses plateformes de <span class="colored_text">déploiement</span> et
+    <span class="colored_text">configurations réseau.</span>
 </div>
 
 <?php include '../partials/footer.php' ?>

@@ -9,8 +9,8 @@ include '../partials/header.php' ?>
 </div>
 
 <div class="presentation">
-    Le<div class="colored_text">BTS SIO (Services Informatiques aux Organisations)</div>
-    est le remplaçant du <div class="underlined_text">BTS IG</div>, il comprend deux options :
+    Le <span class="colored_text">BTS SIO (Services Informatiques aux Organisations)</span>
+    est le remplaçant du <span class="underlined_text">BTS IG</span>, il comprend deux options :
 
     SISR (Solutions d’infrastructure systèmes et réseaux)
 
