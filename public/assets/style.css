@@ -29,7 +29,6 @@ ol
 .menu
 {
     float: right;
-    /*display: block;*/
     text-align: center;
 }
 
@@ -109,7 +108,6 @@ a:visited
 
 h1
 {
-    /*font-size: 120px;*/
     font-size: 6.250em;
     font-weight: 500;
     color: #333333;
@@ -127,11 +125,6 @@ h2
 h2.colored_text
 {
     color: #F86262;
-}
-
-.content
-{
-    /*display: flex;*/
 }
 
 .phrase h2
@@ -178,10 +171,6 @@ button img
 footer
 {
     margin-bottom: 3.34vh;
-    /*margin-top: 33.41vh;*/
-    /*margin-top: 10%;*/
-    /*margin-left: 8.125vw;*/
-    /*margin-right: 8.125vw;*/
     font-size: 0.688em;
     font-weight: normal;
     position: absolute;
@@ -241,11 +230,9 @@ footer ol div
     width: 55.13vw;
     height:  20.42vh;
     font-size: 1.125em;
-    /*margin-left: 29.51vw;*/
     margin-left: 34.02vw;
-    margin-top: -20vh;
+    margin-top: 20vh;
     line-height: 3.09vh;
-    /*flex-wrap: wrap;*/
 }
 
 .presentation .bold-name
@@ -354,26 +341,15 @@ input
     line-height: 3.34vh;
 }
 
-.underline
-{
-    border-bottom: 0.063em #333333;
-}
-
 textarea
 {
     width: 40.97vw;
     height: 18.75vh;
     line-height: 3.34vh;
     resize: none;
-    /*background-image: linear-gradient(transparent, transparent 24px, #E7EFF8 0px);*/
 }
 
-input[placeholder]
+::placeholder
 {
-    color: #F86262;
-}
-
-input[type=text]::placeholder
-{
-    border-bottom: #333333;
+    border-bottom : 1px solid #333333;
 }

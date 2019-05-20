@@ -13,10 +13,12 @@ include '../partials/header.php' ?>
         <input  type="text" name="last_name" placeholder="Nom">
         <input  type="text" name="objet" placeholder="Objet">
         <input  type="text" name="email" placeholder="Email">
-        <div class="underline">
-            <textarea  name="comments" placeholder="Expliquez brièvement quel est votre projet et quelles sont vos attentes.
-En quoi puis-je vous aider ?"></textarea>
-        </div>
+        <textarea  name="comments" placeholder="Expliquez brièvement quel est votre projet et quelles sont vos attentes.
+En quoi puis-je vous aider ?
+
+
+
+"></textarea>
         <input type="submit" value="Envoyer"<img src="<?= URL ?>assets/images/Path.svg">>
     </form>
 </div>

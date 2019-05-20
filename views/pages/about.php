@@ -1,4 +1,5 @@
-<?php include '../partials/header.php' ?>
+<?php define ('URL','http://localhost:8888/Portfolio_Galdric/public/');
+include '../partials/header.php' ?>
 
 <div class="about-content">
     <div class="page-title-about">
