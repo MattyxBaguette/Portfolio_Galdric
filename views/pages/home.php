@@ -1,6 +1,6 @@
 <?php include '../views/partials/header.php' ?>
 
-<div class="content">
+<div class="home-content">
 <h1>Bonjour,</h1>
 <div class="phrase">
     <h2>je suis Technicien</h2>
