@@ -150,7 +150,7 @@ button
     color: white;
     font-family: 'Avenir', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.500em;
     cursor: pointer;
 }
 
@@ -260,6 +260,15 @@ footer ol div
 }
 
 /**
+* Watch
+ */
+
+a.second-img
+{
+    margin-left: 15.20vw;
+}
+
+/**
 * Other pages
  */
 
@@ -272,7 +281,7 @@ footer ol div
 {
     font-size: 2em;
     display: inline-block;
-    margin-top: 12vh;
+    margin-top: 9vh;
 }
 
 .page-title h1.colored_text
@@ -307,4 +316,64 @@ p
     font-size: 1.250em;
     font-weight: 500;
     line-height: 3.34vh;
+}
+
+/**
+* Contact
+ */
+
+form
+{
+    margin-top: -64vh;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me
+{
+    margin-left: 15.60vw;
+    margin-top: 42.45vh;
+}
+
+input[type=submit]
+{
+    background: #F86262;
+    border-radius: 12.37vh;
+    width: 8.75vw;
+    height: 5.81vh;
+    color: white;
+    font-weight: 800;
+    font-size: 1.125em;
+    cursor: pointer;
+    margin-right: 25vw;
+}
+
+input
+{
+    line-height: 3.34vh;
+}
+
+.underline
+{
+    border-bottom: 0.063em #333333;
+}
+
+textarea
+{
+    width: 40.97vw;
+    height: 18.75vh;
+    line-height: 3.34vh;
+    resize: none;
+    /*background-image: linear-gradient(transparent, transparent 24px, #E7EFF8 0px);*/
+}
+
+input[placeholder]
+{
+    color: #F86262;
+}
+
+input[type=text]::placeholder
+{
+    border-bottom: #333333;
 }
