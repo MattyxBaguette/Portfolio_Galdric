@@ -9,7 +9,7 @@
     <button class="about"><a href="<?= URL ?>about-me">En savoir plus<img src="<?= URL ?>assets/images/Path.svg"></a></button>
 <div class="social">
     <a href="https://www.linkedin.com/in/galdric-dupont-baa8a8183/"><img src="<?= URL ?>assets/images/linkedin.svg"></a>
-    <a href="#"><img src="<?= URL ?>assets/images/mail.svg"></a>
+    <a href="<?= URL ?>contact"><img src="<?= URL ?>assets/images/mail.svg"></a>
 </div>
 </div>
 
